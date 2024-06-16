@@ -1,0 +1,41 @@
+.Record {
+  text-align: center;
+  background-color: blueviolet;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 280px 280px 30px;
+  justify-content: center;
+
+}
+
+.data_val {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+  width: 100%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.data {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 280px 280px 30px;
+  justify-content: center;
+  width: 100%;
+}
+.data2 div {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 280px 280px 30px;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
